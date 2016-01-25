@@ -9,7 +9,7 @@ $(function() {
     window.data = data;
 
     // Put your code here. Don't change any other code in this file. You will be sad.
-    var markup = "Currently:" + data.currently.summary + "Tomorrow: " + data.daily.data[0].summary + "Day 2:" + data.daily.data[1].summary + "Day 3:" + data.daily.data[2].summary
+    var markup = "Currently:" + data.currently.summary + "Tomorrow: " + data.daily.data[1].summary + "Day 2:" + data.daily.data[2].summary + "Day 3:" + data.daily.data[3].summary
     // End of your code. No, really. Don't change anything below this, or above line 11.
 
     // Takes the contents of the "markup" variable (which should contain HTML) 
